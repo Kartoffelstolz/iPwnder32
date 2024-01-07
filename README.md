@@ -77,4 +77,4 @@ This project basically follows GPLv3. However, some of the currently private GPL
 - many creators of [iBoot32Patcher](https://github.com/dora2-iOS/iBoot32Patcher) fork  
 
 
-README: updated on 2021/02/01  
+README: updated on 2024/01/07  
