@@ -2,8 +2,11 @@
 *A Tool for utilizing iOS devices using limera1n/checkm8  BootROM exploit*  
 
 When one is downgrading an iPhone 5 or similar device to iOS 8.4.1 via [Legacy-iOS-Kit](https://github.com/LukeZGD/Legacy-iOS-Kit/) and iPwnder32, downloading iBSS fails because the hardcoded links starting with http://appldnld.apple.com are dead.
+
 I don't know what iBSS is, but those links should now start with https://secure-appldnld.apple.com instead. That's the only change I made to the code. Sorry I didn't make it any more resilient, say, with a config file to specify the URLs.
+
 Because I happened to be downgrading an iPhone 5, I only tested it on that device, but I think it should work on other compatible devices too.
+
 If you're here, you probably already know, but just replace the ipwnder32 executable in the Legacy iOS Kit with the one here and rename the file in lowercase as necessary.
 
 ## Features  
