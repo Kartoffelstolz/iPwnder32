@@ -145,7 +145,7 @@ static int init_dl(){
     realpath = n41_ibss;
     fd = fopen(realpath, "r");
     if(!fd){
-        url = "http://appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/5ada2e6df3f933abde79738967960a27371ce9f3.zip";
+        url = "https://secure-appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/5ada2e6df3f933abde79738967960a27371ce9f3.zip";
         path = "AssetData/boot/Firmware/dfu/iBSS.n41ap.RELEASE.dfu";
         if(dl_file(url, path, realpath) != 0) return -1;
     }
@@ -153,7 +153,7 @@ static int init_dl(){
     realpath = n42_ibss;
     fd = fopen(realpath, "r");
     if(!fd){
-        url = "http://appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/a05a5e2e6c81df2c0412c51462919860b8594f75.zip";
+        url = "https://secure-appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/a05a5e2e6c81df2c0412c51462919860b8594f75.zip";
         path = "AssetData/boot/Firmware/dfu/iBSS.n42ap.RELEASE.dfu";
         if(dl_file(url, path, realpath) != 0) return -1;
     }
@@ -161,7 +161,7 @@ static int init_dl(){
     realpath = n48_ibss;
     fd = fopen(realpath, "r");
     if(!fd){
-        url = "http://appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/71ece9ff3c211541c5f2acbc6be7b731d342e869.zip";
+        url = "https://secure-appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/71ece9ff3c211541c5f2acbc6be7b731d342e869.zip";
         path = "AssetData/boot/Firmware/dfu/iBSS.n48ap.RELEASE.dfu";
         if(dl_file(url, path, realpath) != 0) return -1;
     }
@@ -169,7 +169,7 @@ static int init_dl(){
     realpath = n49_ibss;
     fd = fopen(realpath, "r");
     if(!fd){
-        url = "http://appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/455309571ffb5ca30c977897d75db77e440728c1.zip";
+        url = "https://secure-appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/455309571ffb5ca30c977897d75db77e440728c1.zip";
         path = "AssetData/boot/Firmware/dfu/iBSS.n49ap.RELEASE.dfu";
         if(dl_file(url, path, realpath) != 0) return -1;
     }
@@ -177,7 +177,7 @@ static int init_dl(){
     realpath = p101_ibss;
     fd = fopen(realpath, "r");
     if(!fd){
-        url = "http://appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/c0cbed078b561911572a09eba30ea2561cdbefe6.zip";
+        url = "https://secure-appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/c0cbed078b561911572a09eba30ea2561cdbefe6.zip";
         path = "AssetData/boot/Firmware/dfu/iBSS.p101ap.RELEASE.dfu";
         if(dl_file(url, path, realpath) != 0) return -1;
     }
@@ -185,7 +185,7 @@ static int init_dl(){
     realpath = p102_ibss;
     fd = fopen(realpath, "r");
     if(!fd){
-        url = "http://appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/3e0efaf1480c74195e4840509c5806cc83c99de2.zip";
+        url = "https://secure-appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/3e0efaf1480c74195e4840509c5806cc83c99de2.zip";
         path = "AssetData/boot/Firmware/dfu/iBSS.p102ap.RELEASE.dfu";
         if(dl_file(url, path, realpath) != 0) return -1;
     }
@@ -193,7 +193,7 @@ static int init_dl(){
     realpath = p103_ibss;
     fd = fopen(realpath, "r");
     if(!fd){
-        url = "http://appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/238641fd4b8ca2153c9c696328aeeedabede6174.zip";
+        url = "https://secure-appldnld.apple.com/iOS7.1/031-4897.20140627.JCWhk/238641fd4b8ca2153c9c696328aeeedabede6174.zip";
         path = "AssetData/boot/Firmware/dfu/iBSS.p103ap.RELEASE.dfu";
         if(dl_file(url, path, realpath) != 0) return -1;
     }
