@@ -1,6 +1,10 @@
 # iPwnder32  
 *A Tool for utilizing iOS devices using limera1n/checkm8  BootROM exploit*  
 
+I made this fork because the original iPwnder32 is archived and has dead links to some required Apple resources. Only tested on iPhone 5 because I happen to be downgrading one. Sorry I didn't make it more resilient, URLs are still hardcoded instead of refrencing a config file.
+
+I also need to figure out how to compile this for everyone else, I'm a complete noob to github.
+
 ## Features  
 This tool is intended to take advantage of the BootROM exploit present on iOS devices.  
 It is written in the C and is only available on macosx.  
