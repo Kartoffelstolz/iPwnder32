@@ -1,9 +1,10 @@
 # iPwnder32  
 *A Tool for utilizing iOS devices using limera1n/checkm8  BootROM exploit*  
 
-I made this fork because the original iPwnder32 is archived and has dead links to some required Apple resources. Only tested on iPhone 5 because I happen to be downgrading one. Sorry I didn't make it more resilient, URLs are still hardcoded instead of refrencing a config file.
-
-I also need to figure out how to compile this for everyone else, I'm a complete noob to github.
+When one is downgrading an iPhone 5 or similar device to iOS 8.4.1 via [Legacy-iOS-Kit](https://github.com/LukeZGD/Legacy-iOS-Kit/) and iPwnder32, downloading iBSS fails because the hardcoded links starting with http://appldnld.apple.com are dead.
+I don't know what iBSS is, but those links should now start with https://secure-appldnld.apple.com instead. That's the only change I made to the code. Sorry I didn't make it any more resilient, say, with a config file to specify the URLs.
+Because I happened to be downgrading an iPhone 5, I only tested it on that device, but I think it should work on other compatible devices too.
+If you're here, you probably already know, but just replace the ipwnder32 executable in the Legacy iOS Kit with the one here and rename the file in lowercase as necessary.
 
 ## Features  
 This tool is intended to take advantage of the BootROM exploit present on iOS devices.  
@@ -64,6 +65,7 @@ This project basically follows GPLv3. However, some of the currently private GPL
 
 
 ## Credits  
+- [dora2-iOS](https://github.com/dora2ios/) for [original iPwnder32](https://github.com/dora2ios/iPwnder32/)
 - [libimobiledevice](https://github.com/libimobiledevice) for [libirecovery](https://github.com/libimobiledevice/libirecovery)  
 - [iH8sn0w](https://github.com/iH8sn0w) for [iBoot32Patcher](https://github.com/iH8sn0w/iBoot32Patcher)  
 - [axi0mX](https://github.com/axi0mX) for [ipwndfu](https://github.com/axi0mX/ipwndfu)  
